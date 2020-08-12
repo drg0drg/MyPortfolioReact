@@ -2,6 +2,8 @@ import React from "react";
 import "../assets/style/_navbarLanding.scss";
 import navbarImage from "../assets/img/background/manfred_mohr.jpg";
 
+
+
 const NavbarLanding = () => {
   return (
     <div className="landing-centering-div">
