@@ -1,0 +1,29 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_navbarLanding.scss";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: grey;
+  background-image: url(../img/background/Background2BW4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

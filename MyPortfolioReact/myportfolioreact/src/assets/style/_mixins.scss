@@ -1,0 +1,17 @@
+@import "_variables.scss";
+
+@mixin navbarFont {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: $text-colour;
+}
+
+@mixin displayFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin displayFlexRow {
+  display: flex;
+  flex-direction: row;
+}
