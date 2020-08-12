@@ -1,38 +1,28 @@
 @import "_variables.scss";
 @import "_mixins.scss";
-@import "_navbarLanding.scss";
-@import "_aboutMe.scss";
 
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: grey;
-  background-image: url(../img/background/Background2BW4.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.center-landing-page {
-  display: flex;
+.intersection-observer {
+  @include displayFlexColumn;
   justify-content: center;
   align-items: center;
+  margin-top: 15vh;
+  // z-index: +100;
 }
+
+.page-title {
+  @include horizontalBorderStyle;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-weight: 800;
+}
+
 
 .page-main-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-top: 10px;
   margin-top: 6vh;
   z-index: -100;
@@ -41,9 +31,24 @@ body {
   }
 }
 
+.contacts {
+  @include displayFlexRow;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-bottom: 5vh;
+}
+
+.contacts a {
+  color: $primary-colour;
+}
+
+.avatar{
+  margin-bottom: 5vh;
+}
+
 .page-card {
   @include displayFlexColumn;
-  // @include verticalBorderStyle;
+  @include verticalBorderStyle;
   align-items: center;
   padding: 1.5rem;
   padding-bottom: 5vh;
@@ -52,4 +57,3 @@ body {
   margin-left: 5vw;
   margin-right: 5vw;
 }
-
