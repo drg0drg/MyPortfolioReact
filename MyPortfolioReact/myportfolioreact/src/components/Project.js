@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/style/style.css";
 import fitnessBuddyPic from "../assets/img/projects/Portfolio_FitnessBuddy.jpg";
+import burgerAppPic from "../assets/img/projects/BurgerApp.JPG";
 
 const myProjects = [
   {
@@ -13,13 +14,13 @@ const myProjects = [
     image: fitnessBuddyPic
   },
   {
-    title: "FITNESS BUDDY",
-    repoLink: "https://github.com/drg0drg/Fitness-buddy",
-    deployedLink: "https://jdj-fitness-buddy.herokuapp.com/login",
-    tech: "NodeJS - JS - Sequelize - Express - Passport - Pug - .less",
+    title: "BURGER APP",
+    repoLink: "https://github.com/drg0drg/BurgerApp",
+    deployedLink: "https://eat-the-burger-drg.herokuapp.com/index",
+    tech: "NodeJS - JS - Express - Handlebars - ORM - MySQL - Heroku",
     description:
-      " Fitness Buddy is a fitness app that provides users with a guidance on how to perform exercises",
-    image: fitnessBuddyPic
+      "Burger App is an application that allows one to order a specific burger and then devour it",
+    image: burgerAppPic
   }
 
 ];
