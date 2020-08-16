@@ -173,7 +173,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 15vh;
+  margin-top: 5vh;
 }
 
 .page-title {
@@ -311,7 +311,7 @@
           justify-content: center;
   padding-top: 10px;
   margin-top: 6vh;
-  z-index: -100;
+  z-index: -1;
   width: 80%;
 }
 

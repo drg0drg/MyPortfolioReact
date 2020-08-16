@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import "../assets/style/_navbarLanding.scss";
 import navbarImage from "../assets/img/background/manfred_mohr.jpg";
 
-
-
 const NavbarLanding = () => {
   return (
     <div className="landing-centering-div">
@@ -21,8 +19,12 @@ const NavbarLanding = () => {
         </div>
 
         <div className="menu">
-          <Link to="/" className="about ">About</Link>
-          <Link to="/portfolio" className="portfolio ">Portfolio</Link>
+          <Link to="/" className="about ">
+            About
+          </Link>
+          <Link to="/portfolio" className="portfolio ">
+            Portfolio
+          </Link>
         </div>
       </div>
     </div>
