@@ -14,7 +14,7 @@ const AboutMe = () => {
           <div className="contacts">
             <a
               href="https://drive.google.com/file/d/1GSNfNxVHp-MHJmL17EQpdLCDx-TSK2Zp/view?usp=sharing"
-              target="_blank"><i className="fas fa-file-pdf fa-3x"></i>
+              target="_blank"><i className="fas fa-file-pdf fa-2x"></i>
             </a>
             <a
               href="https://github.com/drg0drg?tab=repositories"
@@ -22,7 +22,7 @@ const AboutMe = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/costin-dragos-dragomir-90b4121aa/"
-              target="_blank"><i className="fab fa-linkedin fa-3x"></i>
+              target="_blank"><i className="fab fa-linkedin fa-2x"></i>
             </a>
           </div>
   

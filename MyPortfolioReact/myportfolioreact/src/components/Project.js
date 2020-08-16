@@ -62,9 +62,6 @@ const Projects = () => {
         <h3 className="page-title">PORTFOLIO</h3>
         </div>
       
-
-     
-
         {myProjects.map((project) => (
 
         

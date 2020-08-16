@@ -33,14 +33,42 @@
 
 .contacts {
   @include displayFlexRow;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   margin-bottom: 5vh;
 }
 
 .contacts a {
   color: $primary-colour;
+  width: 27px;
+  height: 27px;
 }
+
+.fa-github {
+  // margin-bottom: 1rem;
+  // margin-right: 1rem;
+  font-size: 2rem;
+  color: rgb(74, 170, 165);
+  cursor: pointer;
+}
+
+.fa-linkedin {
+  color: #4aaaa5;
+  font-size: 2rem;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.fa-file-pdf {
+  color: #4aaaa5;
+  font-size: 1.8rem;
+  // margin-left: 0.6rem;
+  cursor: pointer;
+  // margin-right: 12px;
+  margin-top: 0.20rem;
+}
+
 
 .avatar{
   margin-bottom: 5vh;

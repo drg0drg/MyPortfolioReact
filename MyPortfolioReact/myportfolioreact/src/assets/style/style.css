@@ -154,6 +154,9 @@
 .portfolio {
   margin-top: 0.2rem;
   margin-right: 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .intersection-observer {
@@ -214,15 +217,40 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 40%;
   margin-bottom: 5vh;
 }
 
 .contacts a {
   color: #4baaa5;
+  width: 27px;
+  height: 27px;
+}
+
+.fa-github {
+  font-size: 2rem;
+  color: #4aaaa5;
+  cursor: pointer;
+}
+
+.fa-linkedin {
+  color: #4aaaa5;
+  font-size: 2rem;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.fa-file-pdf {
+  color: #4aaaa5;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-top: 0.20rem;
 }
 
 .avatar {
@@ -355,24 +383,6 @@
   font-size: 12px;
   font-weight: 700;
   margin: 0;
-}
-
-.fa-github {
-  margin-bottom: 1rem;
-  margin-right: 0.5rem;
-  font-size: 2rem;
-  color: #4aaaa5;
-  cursor: pointer;
-}
-
-.fa-linkedin {
-  color: #4aaaa5;
-}
-
-.fa-file-pdf {
-  color: #4aaaa5;
-  font-size: 1.7rem;
-  margin-left: 0.6rem;
 }
 
 * {
