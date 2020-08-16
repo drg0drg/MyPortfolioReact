@@ -4,6 +4,7 @@ import fitnessBuddyPic from "../assets/img/projects/Portfolio_FitnessBuddy.jpg";
 import burgerAppPic from "../assets/img/projects/BurgerApp.JPG";
 import employeeSumPic from "../assets/img/projects/emplyee_summary.JPG";
 import musicAppPic from "../assets/img/projects/Music_app.jpg";
+import weatherAppPic from "../assets/img/projects/Weather_App.JPG";
 
 const myProjects = [
   {
@@ -41,7 +42,17 @@ const myProjects = [
     description:
       "A webapp to find every information you need on your favourite music",
     image: musicAppPic
+  },
+  {
+    title: "WEATHER APP",
+    repoLink: "https://github.com/drg0drg/WeatherApp",
+    deployedLink: "https://drg0drg.github.io/WeatherApp/",
+    tech: "HTML - CSS - JavaScript - OpenWeather API",
+    description:
+      "A webapp to quickly check the weather anywhere on the planet",
+    image: weatherAppPic
   }
+
 ];
 
 const Projects = () => {
