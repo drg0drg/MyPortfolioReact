@@ -60,18 +60,11 @@ const Projects = () => {
                 />
               </a>
               <div className="deployed-tag">
-                <p className="img-description">CLICK TO DEPLOYED APP</p>
+                <p className="img-description">CLICK IMAGE TO DEPLOYED APP</p>
               </div>
             </div>
-            {/* <div>
-              <button><a
-                  href={project.deployedLink}
-                  target="_blank" className="deployed-button">DEPLOYED APP</a>
-              </button>
-            </div> */}
           </div>
         ))}
-      {/* </div> */}
       </React.Fragment>
   );
 };

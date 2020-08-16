@@ -7,7 +7,6 @@
   padding-left: 1.2rem;
   padding-right: 1.2rem;
   font-weight: 800;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +47,9 @@
 
 .img-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 80%;
 }
 
@@ -57,6 +58,21 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+.deployed-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-description {
+  color: $primary-colour;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
 }
 
 
