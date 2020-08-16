@@ -1,0 +1,114 @@
+
+@import "_variables.scss";
+@import "_mixins.scss";
+
+// .page-main-div {
+//     display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding-top: 10px;
+//   margin-top: 6vh;
+//   z-index: -100;
+//   @media screen and (min-width: $desktop-break-point){
+//     width: 800px;
+//   }
+
+// }
+
+.page-title {
+  @include horizontalBorderStyle;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.page-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 6vh;
+  z-index: -1;
+  width: 80%;
+  @media screen and (min-width: $desktop-break-point){
+    width: 800px;
+  }
+}
+
+.project-title {
+  @include horizontalBorderStyle;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 2vh;
+}
+
+.project-text {
+  width: 80%;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.project-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.deployed-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.img-description {
+  color: $primary-colour;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+// .fa-github {
+//   // margin-bottom: 1rem;
+//   margin-right: 0.5rem;
+//   font-size: 2rem;
+//   color: rgb(74, 170, 165);
+//   cursor: pointer;
+// }
+
+// .fa-linkedin {
+//   color: #4aaaa5;
+//   font-size: 1.7rem;
+//   margin-left: 0.6rem;
+//   cursor: pointer;
+// }
+
+// .fa-file-pdf {
+//   color: #4aaaa5;
+//   font-size: 1.7rem;
+//   margin-left: 0.6rem;
+//   cursor: pointer;
+// }
+
+

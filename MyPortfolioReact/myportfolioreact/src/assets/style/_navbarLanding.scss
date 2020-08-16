@@ -1,0 +1,119 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.landing-centering-div {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  border: 2px black;
+  box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.4);
+  padding: 0;
+  // margin-top: 33vh;
+  @media screen and (min-width: $desktop-break-point){
+    width: 800px;
+  }
+}
+
+.header-image-div {
+  // background-image: url(../img/background/manfredMohr.jpg);
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: 100%;
+
+  width: 100%;
+  // height: 100%;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.brand-box {
+  @include displayFlexRow;
+  justify-content: center;
+  align-items: center;
+  width: 38%;
+  height: 50%;
+  background-color: $primary-colour;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.large-D {
+  @include displayFlexColumn;
+  justify-content: start;
+  font-size: 5rem;
+  color: black;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-left: 0;
+  text-shadow: 1px 4px 1px rgb(83, 83, 83);
+  font-size: 48px;
+  @media screen and (min-width: $iPhone8Plus-break-point){
+    font-size: 60px;
+  }
+  @media screen and (min-width: $desktop-break-point){
+    font-size: 100px;
+  }
+}
+
+.name-box {
+  @include displayFlexColumn;
+  justify-content: center;
+  align-items: flex-start;
+  // width: 75vw;
+  font-size: 0.7rem;
+  margin: 0px;
+  font-weight: 900;
+  color: black;
+}
+
+.first-name,
+.sur-name {
+  // margin-top: 0.5rem;
+  margin: 0;
+  font-size: 11.2px;
+  @media screen and (min-width: $iPhone8Plus-break-point){
+    font-size: 14px;
+  }
+  @media screen and (min-width: $desktop-break-point){
+    font-size: 26px;
+  }
+
+
+}
+
+// .sur-name {
+//   margin: 0;
+//   font-size: 11.2px;
+
+// }
+
+.menu {
+  width: 100%;
+  // background-color: blue;
+  border-top: solid 3px $secondary-colour;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.about,
+.portfolio {
+  margin-top: 0.2rem;
+  margin-right: 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}

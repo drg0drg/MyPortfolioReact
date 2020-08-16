@@ -1,0 +1,56 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_navbarLanding.scss";
+@import "_aboutMe.scss";
+@import "_project.scss";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: grey;
+  background-image: url(../img/background/Background2BW4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 6vh;
+  z-index: -100;
+  @media screen and (min-width: $desktop-break-point){
+    width: 800px;
+  }
+}
+
+.page-card {
+  @include displayFlexColumn;
+  // @include verticalBorderStyle;
+  align-items: center;
+  padding: 1.5rem;
+  padding-bottom: 5vh;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
