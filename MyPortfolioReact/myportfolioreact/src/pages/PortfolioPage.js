@@ -5,10 +5,10 @@ import "../assets/style/style.css";
 
 const PortfolioPage = () => {
 	return (
-		<div>
+		<>
 			<NavbarLanding />
-      <Projects/>
-		</div>
+      <Projects />
+		</>
 	);
 };
 

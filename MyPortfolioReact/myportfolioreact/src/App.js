@@ -6,7 +6,9 @@ import './assets/style/style.css';
 
 function App() {
   return (
-    <PortfolioPage/>
+    <div>
+      <PortfolioPage />
+    </div>
   );
 }
 

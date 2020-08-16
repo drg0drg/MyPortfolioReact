@@ -7,7 +7,7 @@ const LandingPage = () => {
 	return (
 		<div>
 			<NavbarLanding />
-      <AboutMe/>
+      <AboutMe />
 		</div>
 	);
 };
