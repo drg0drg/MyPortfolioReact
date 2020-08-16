@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/style/style.css";
 import fitnessBuddyPic from "../assets/img/projects/Portfolio_FitnessBuddy.jpg";
 import burgerAppPic from "../assets/img/projects/BurgerApp.JPG";
+import employeeSumPic from "../assets/img/projects/emplyee_summary.JPG";
 
 const myProjects = [
   {
@@ -21,8 +22,17 @@ const myProjects = [
     description:
       "Burger App is an application that allows one to order a specific burger and then devour it",
     image: burgerAppPic
+  },
+  {
+    title: "EMPLOYEE SUMMARY",
+    repoLink: "https://github.com/drg0drg/EmployeeSummary",
+    deployedLink: "https://github.com/drg0drg/EmployeeSummary",
+    tech: "NodeJS - JS",
+    description:
+      "A CLI webapp to build a team's organization chart",
+    image: employeeSumPic
   }
-
+  
 ];
 
 const Projects = () => {
