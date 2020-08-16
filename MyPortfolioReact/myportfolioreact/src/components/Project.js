@@ -3,6 +3,7 @@ import "../assets/style/style.css";
 import fitnessBuddyPic from "../assets/img/projects/Portfolio_FitnessBuddy.jpg";
 import burgerAppPic from "../assets/img/projects/BurgerApp.JPG";
 import employeeSumPic from "../assets/img/projects/emplyee_summary.JPG";
+import musicAppPic from "../assets/img/projects/Music_app.jpg";
 
 const myProjects = [
   {
@@ -31,8 +32,16 @@ const myProjects = [
     description:
       "A CLI webapp to build a team's organization chart",
     image: employeeSumPic
+  },
+  {
+    title: "THE MUSIC APP",
+    repoLink: "https://github.com/drg0drg/The-Music-App",
+    deployedLink: "https://meeday.github.io/The-Music-App/",
+    tech: "jQuery - LastFM & audd.io API - Materialize",
+    description:
+      "A webapp to find every information you need on your favourite music",
+    image: musicAppPic
   }
-  
 ];
 
 const Projects = () => {
