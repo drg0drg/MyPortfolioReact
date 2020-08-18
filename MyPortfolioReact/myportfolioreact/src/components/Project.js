@@ -60,7 +60,6 @@ const Projects = () => {
       </div>
 
       {myProjects.map((project) => (
-        <div className="page-main-div">
           <div className="page-card">
             <h4 className="project-title project-title-one">{project.title}</h4>
             <a
@@ -96,7 +95,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </div>
       ))}
     </React.Fragment>
   );
