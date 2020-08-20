@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="page-main-div">
           <div className="contacts">
             <a
-              href="https://drive.google.com/file/d/1GSNfNxVHp-MHJmL17EQpdLCDx-TSK2Zp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QUMxeve3bySekrHC0x3wGZUIyLG8apuN/view?usp=sharing" 
               target="_blank"><i className="fas fa-file-pdf fa-2x"></i>
             </a>
             <a
