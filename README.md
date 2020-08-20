@@ -26,6 +26,8 @@ My Portfolio React is a web app to showcase my work.
 
 Built with _React.js_ , it is a single page application structured around individual components that are rendered each time the page loads. 
 
+https://ancient-beyond-57331.herokuapp.com/
+
 A list of either individual projects or that I contributed to as part of a team: 
 
 
