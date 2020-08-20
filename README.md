@@ -39,6 +39,14 @@ A list of either individual projects or that I contributed to as part of a team:
  - Deployed: https://jdj-fitness-buddy.herokuapp.com/
 
 
+## THE Music App
+
+ - Web app to find every information you need on your favourite music. 
+ - jQuery, LastFM & audd.io API, Materialize
+ - GitHub: https://github.com/drg0drg/The-Music-App
+ - Deployed: https://meeday.github.io/The-Music-App/
+
+
 ## Employee Directory React
 
  - React web app to filter the employees on different criteria. 
@@ -101,7 +109,7 @@ If desired, one can fork && clone the repo and run the terminal command `npm sta
 Demo: 
 
 
-
+![MyPortfolioReact](https://user-images.githubusercontent.com/60710786/90788285-91dcee80-e2fd-11ea-8567-b2c307b15f8f.jpg)
 
     
 
