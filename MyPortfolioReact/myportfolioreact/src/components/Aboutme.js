@@ -22,7 +22,7 @@ const AboutMe = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/costin-dragos-dragomir-90b4121aa/"
-              target="_blank"><i className="fab fa-linkedin fa-2x"></i>
+              target="_blank"><i className="fab fa-linkedin fa-x"></i>
             </a>
           </div>
   
